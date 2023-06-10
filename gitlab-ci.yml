@@ -1,0 +1,26 @@
+run_tests:
+  before_script:
+    - echo "prapere some tset cases and get then"
+script:
+  - echo "runniing some tests commands
+after_scrpts:
+    - echo "dlete all test data"
+
+build_image:
+     script: 
+        - echoo "buildlingimage foram ltlhe docker 
+        -  ehco "chamnge the image tag . to upooaodto ACR"
+
+
+push_ikamge:
+    script:
+       - echo "logiing in to mly resigsty ACR"
+       -    echo "push tthe iomage to ACR"
+
+
+
+
+
+
+
+
