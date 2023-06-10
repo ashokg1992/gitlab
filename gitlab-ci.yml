@@ -1,21 +1,22 @@
 run_tests:
   before_script:
-    - echo "prapere some tset cases and get then"
+    - echo "prepare some test cases and get then"
 script:
-  - echo "runniing some tests commands
+  - echo "running some tests commands
 after_scrpts:
-    - echo "dlete all test data"
+    - echo "delete all test data"
 
 build_image:
      script: 
         - echoo "buildlingimage foram ltlhe docker 
-        -  ehco "chamnge the image tag . to upooaodto ACR"
+        -  echo "change the image tag . to upload ACR"
 
 
 push_ikamge:
     script:
-       - echo "logiing in to mly resigsty ACR"
-       -    echo "push tthe iomage to ACR"
+       - echo "logging in to my registry ACR"
+       -    echo "push the image to ACR
+
 
 
 
